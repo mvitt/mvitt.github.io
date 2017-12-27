@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity"
+    android:focusable="false"
+    android:clickable="false"
+    android:touchscreenBlocksFocus="false"
+    android:background="#A1A1A1">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUpC"
+        android:layout_marginTop="50dp"
+        android:outlineProvider="none"
+        android:background="@null"
+        android:src="@drawable/n64cup"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="false"
+        android:clickable="false"
+        android:alpha="0.4" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDownC"
+        android:src="@drawable/n64cdown"
+        android:background="@null"
+        android:layout_below="@+id/btnRightC"
+        android:layout_alignLeft="@+id/btnUpC"
+        android:layout_alignStart="@+id/btnUpC"
+        android:clickable="false"
+        android:alpha="0.4" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRightC"
+        android:src="@drawable/n64cright"
+        android:background="@null"
+        android:layout_toEndOf="@+id/btnUpC"
+        android:layout_below="@+id/btnUpC"
+        android:layout_toRightOf="@+id/btnUpC"
+        android:alpha="0.4" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLeftC"
+        android:src="@drawable/n64cleft"
+        android:background="@null"
+        android:layout_alignTop="@+id/btnRightC"
+        android:layout_toLeftOf="@+id/btnUpC"
+        android:layout_toStartOf="@+id/btnUpC"
+        android:alpha="0.4"
+        android:adjustViewBounds="false" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnA"
+        android:src="@drawable/n64buttona"
+        android:background="@null"
+        android:layout_toStartOf="@+id/btnDownC"
+        android:alpha="0.4"
+        android:layout_below="@+id/btnDownC"
+        android:layout_toLeftOf="@+id/btnDownC" />
+
+</RelativeLayout>
