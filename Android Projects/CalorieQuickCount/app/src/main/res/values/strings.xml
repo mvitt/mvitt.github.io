@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Calorie Quick Count</string>
+    <string name="main_title">Calorie Quick Start</string>
+    <string name="get_started_btn">Get Started</string>
+    <string name="date_list_title">Dates</string>
+    <string name="date_add_icon_title">Add Date</string>
+    <string name="food_add_icon_title">Add Food</string>
+    <string name="food_detail_enter_food_name_hint">Food Name</string>
+    <string name="food_detail_enter_calories_hint">Calories</string>
+    <string name="submit_food_btn">Submit</string>
+    <string name="enter_info">Enter Information</string>
+
+
+</resources>
