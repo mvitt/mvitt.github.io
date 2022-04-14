@@ -1,0 +1,234 @@
+/* 
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+MAIN COLOR: #4263eb 
+TINT COLOR: #5c7cfa
+TEXT COLOR: #343a40
+ACCENT COLOR: #eb4242
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  border-bottom: 8px solid #4263eb;
+}
+
+.container {
+  width: 960px;
+  margin: 48px auto;
+  display: grid;
+  grid-template-columns: 960px;
+  row-gap: 80px;
+}
+
+.author-name {
+  font-size: 64px;
+  text-transform: capitalize;
+}
+
+.author-email-link:link,
+.author-email-link:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: #4263eb;
+  color: #fff;
+  padding: 16px 32px;
+  display: inline-block;
+  border-radius: 100px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.author-email-link:hover,
+.author-email-link:active {
+  background-color: #5c7cfa;
+  box-shadow: 0px 15px 20px rgba(92, 124, 250, 0.4);
+  transform: translateY(-7px);
+}
+
+.headshot {
+  width: 440px;
+  border-radius: 12px;
+  box-shadow: 0px 20px 30px 0px rgb(0, 0, 0, 0.07);
+}
+
+.personal-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.personal-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.main-article {
+  box-shadow: 0px 20px 30px 0px rgb(0, 0, 0, 0.07);
+  padding: 32px;
+  border-radius: 12px;
+}
+
+.main-article-header {
+  text-transform: uppercase;
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.education-container {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 80px; */
+}
+
+.school-name {
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.school-name + p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 24px;
+}
+.skill-container-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  width: 160px;
+  height: 130px;
+  border: 1px solid #000;
+  box-shadow: 0px 20px 30px 0px rgb(0, 0, 0, 0.01);
+  border-radius: 12px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.skill-container-item:hover {
+  transform: translateY(-7px);
+  box-shadow: 0px 20px 30px 0px rgb(0, 0, 0, 0.1);
+}
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.skill-name {
+  font-size: 24px;
+  width: 100%;
+  border-top: 1px solid #000;
+  text-align: center;
+}
+
+.interests-container {
+  display: flex;
+}
+
+.interests-container-item {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.awards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.awards-container-item {
+  font-size: 18px;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.portfolio-container-language-header {
+  font-size: 24px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.portfolio-first-header {
+  margin-top: 0px;
+}
+
+.language-item-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.language-item-header {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.language-item-description {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.language-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 96px;
+}
+
+.language-item-link:link,
+.language-item-link:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  background-color: #4263eb;
+  color: #fff;
+  padding: 10px 14px;
+  display: inline-block;
+  align-self: center;
+  border-radius: 100px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.language-item-link:hover,
+.language-item-link:active {
+  background-color: #5c7cfa;
+  box-shadow: 0px 15px 20px rgba(92, 124, 250, 0.4);
+  transform: translateY(-7px);
+}
+
+.header-icon {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 12px;
+}
