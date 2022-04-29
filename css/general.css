@@ -1,0 +1,38 @@
+/* 
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+MAIN COLOR: #4263eb 
+TINT COLOR: #5c7cfa
+TEXT COLOR: #343a40
+ACCENT COLOR: #eb4242
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 62.5% is equal to 1rem == 10px. Great for responsive design */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  border-bottom: 0.8rem solid #4263eb;
+}
+
+.container {
+  max-width: 96rem;
+  margin: 4.8rem auto;
+  display: grid;
+  grid-template-columns: 96rem;
+  row-gap: 8rem;
+}

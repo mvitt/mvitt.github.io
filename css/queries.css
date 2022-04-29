@@ -1,0 +1,79 @@
+/*
+ 1 em == 16px
+*/
+
+/*Small Laptops*/
+@media (max-width: 68.75em) {
+  .container {
+    max-width: 80rem;
+    margin: 4.8rem auto;
+    display: grid;
+    grid-template-columns: 80rem;
+    row-gap: 8rem;
+  }
+
+  .author-name {
+    font-size: 5.2rem;
+  }
+
+  .author-email-link:link,
+  .author-email-link:visited {
+    font-size: 1.6rem;
+  }
+
+  .headshot {
+    max-width: 36rem;
+  }
+
+  .about {
+    font-size: 1.6rem;
+  }
+
+  .header-icon {
+    max-width: 3rem;
+    max-height: 3rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .main-article-header {
+    font-size: 3rem;
+  }
+
+  .school-name {
+    font-size: 2rem;
+  }
+
+  .school-name + p {
+    font-size: 1.6rem;
+  }
+
+  .skill-name {
+    font-size: 2rem;
+  }
+
+  .interests-container-item {
+    font-size: 1.6rem;
+  }
+
+  .awards-container-item {
+    font-size: 1.6rem;
+  }
+
+  .portfolio-container-language-header {
+    font-size: 2rem;
+    margin-top: 0.8rem;
+  }
+
+  .language-item-header {
+    font-size: 1.6rem;
+  }
+
+  .language-item-description {
+    font-size: 1.6rem;
+  }
+
+  .language-item-link:link,
+  .language-item-link:visited {
+    font-size: 1.2rem;
+  }
+}
