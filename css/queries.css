@@ -82,12 +82,22 @@
     grid-template-columns: 64rem;
   }
 
+  .personal-info-desktop {
+    display: none;
+  }
+
+  .personal-info-mobile {
+    display: flex;
+  }
+
   .author-name {
-    font-size: 4.4rem;
+    font-size: 7rem;
+    order: 1;
   }
 
   .author-email {
     align-self: center;
+    order: 4;
   }
 
   .about {
@@ -95,11 +105,15 @@
   }
 
   .headshot {
-    max-width: 30rem;
-    align-self: center;
+    max-width: 36rem;
+    order: 2;
   }
 
-  .personal-info {
+  .author-about {
+    order: 3;
+  }
+
+  .personal-info-desktop {
     gap: 4rem;
   }
 
