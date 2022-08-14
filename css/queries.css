@@ -100,6 +100,7 @@
   .author-email-link:link,
   .author-email-link:visited {
     font-size: 3.5rem;
+    padding: 2rem 4rem;
   }
 
   .about {
