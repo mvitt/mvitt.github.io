@@ -91,26 +91,24 @@
   }
 
   .author-name {
-    font-size: 7rem;
-    order: 1;
+    font-size: 8rem;
   }
 
   .author-email {
     align-self: center;
-    order: 4;
+  }
+  .author-email-link:link,
+  .author-email-link:visited {
+    font-size: 3.5rem;
   }
 
   .about {
-    font-size: 1.4rem;
+    font-size: 2.4rem;
+    text-align: center;
   }
 
   .headshot {
-    max-width: 36rem;
-    order: 2;
-  }
-
-  .author-about {
-    order: 3;
+    max-width: 44rem;
   }
 
   .personal-info-desktop {
