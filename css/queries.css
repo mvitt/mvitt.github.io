@@ -84,6 +84,10 @@
     display: flex;
   }
 
+  .header-container {
+    align-items: center;
+  }
+
   .author-name {
     font-size: 8rem;
   }
@@ -98,7 +102,7 @@
   }
 
   .about {
-    font-size: 2.4rem;
+    font-size: 2.1rem;
     text-align: center;
   }
 
@@ -110,7 +114,56 @@
     gap: 4rem;
   }
 
+  .main-article-header {
+    font-size: 6rem;
+  }
+
+  .header-icon {
+    max-width: 6rem;
+    max-height: 6rem;
+  }
+
+  .education-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .school-name {
+    font-size: 3.5rem;
+  }
+
+  .school-name + p {
+    font-size: 2.1rem;
+  }
+
   .skills-container {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .interests-container-item {
+    font-size: 2.1rem;
+  }
+
+  .awards-container-item {
+    font-size: 2.1rem;
+  }
+
+  .portfolio-container-language-header {
+    font-size: 5rem;
+  }
+
+  .language-item-header {
+    font-size: 2.8rem;
+  }
+
+  .language-item-description {
+    font-size: 2.1rem;
+  }
+
+  .language-item-link:link,
+  .language-item-link:visited {
+    padding: 2rem 4rem;
+    font-size: 2.5rem;
+    align-self: flex-start;
   }
 }
