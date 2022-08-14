@@ -62,10 +62,16 @@
   border-radius: 1.2rem;
 }
 
+.header-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
 .header-icon {
-  max-width: 3.6rem;
-  max-height: 3.6rem;
-  margin-bottom: 1.2rem;
+  max-width: 4rem;
+  max-height: 4rem;
 }
 
 .main-article-header {
