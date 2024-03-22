@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #4263eb;
+  --secondary-color: #5c7cfa;
+  --text-color: #343a40;
+  --accent-color: #eb4242;
+}
+
 .author-name {
   font-size: 6.4rem;
   text-transform: capitalize;
@@ -8,7 +15,7 @@
   text-transform: uppercase;
   text-decoration: none;
   font-size: 1.8rem;
-  background-color: #4263eb;
+  background-color: var(--primary-color);
   color: #fff;
   padding: 1.6rem 3.2rem;
   display: inline-block;
@@ -20,7 +27,7 @@
 
 .author-email-link:hover,
 .author-email-link:active {
-  background-color: #5c7cfa;
+  background-color: var(--secondary-color);
   box-shadow: 0rem 1.5rem 2rem rgba(92, 124, 250, 0.4);
   transform: translateY(-0.7rem);
 }
@@ -203,7 +210,7 @@
   text-transform: uppercase;
   text-decoration: none;
   font-size: 1.4rem;
-  background-color: #4263eb;
+  background-color: var(--primary-color);
   color: #fff;
   padding: 1rem 1.4rem;
   display: inline-block;
@@ -216,7 +223,7 @@
 
 .language-item-link:hover,
 .language-item-link:active {
-  background-color: #5c7cfa;
+  background-color: var(--secondary-color);
   box-shadow: 0rem 1.5rem 2rem rgba(92, 124, 250, 0.4);
   transform: translateY(-0.7rem);
 }
