@@ -12,24 +12,8 @@
 
 .author-email-link:link,
 .author-email-link:visited {
-  text-transform: uppercase;
-  text-decoration: none;
   font-size: 1.8rem;
-  background-color: var(--primary-color);
-  color: #fff;
   padding: 1.6rem 3.2rem;
-  display: inline-block;
-  border-radius: 10rem;
-  box-shadow: 0rem 0.8rem 1.5rem rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-}
-
-.author-email-link:hover,
-.author-email-link:active {
-  background-color: var(--secondary-color);
-  box-shadow: 0rem 1.5rem 2rem rgba(92, 124, 250, 0.4);
-  transform: translateY(-0.7rem);
 }
 
 .headshot {
@@ -207,23 +191,27 @@
 
 .language-item-link:link,
 .language-item-link:visited {
+  font-size: 1.4rem;
+  padding: 1rem 1.4rem;
+  align-self: center;
+}
+
+:is(.author-email-link, .language-item-link):link,
+:is(.author-email-link, .language-item-link):visited {
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 1.4rem;
   background-color: var(--primary-color);
   color: #fff;
-  padding: 1rem 1.4rem;
   display: inline-block;
-  align-self: center;
   border-radius: 10rem;
   box-shadow: 0rem 0.8rem 1.5rem rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
   cursor: pointer;
 }
 
-.language-item-link:hover,
-.language-item-link:active {
+:is(.author-email-link, .language-item-link):hover,
+:is(.author-email-link, .language-item-link):active {
   background-color: var(--secondary-color);
-  box-shadow: 0rem 1.5rem 2rem rgba(92, 124, 250, 0.4);
+  box-shadow: 0 1.5rem 2rem rgba(92, 124, 250, 0.4);
   transform: translateY(-0.7rem);
 }
