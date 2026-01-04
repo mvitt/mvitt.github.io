@@ -32,6 +32,20 @@
             gtag('js', new Date());
             gtag('config', 'G-8PZTS8TD0T');
         </script>
+        <script>
+            // Critical: Force valid scroll state before content loads
+            if (history.scrollRestoration) {
+                history.scrollRestoration = 'manual';
+            }
+
+            // Remove fragment immediately
+            if (window.location.hash) {
+                window.history.replaceState(null, null, window.location.pathname);
+            }
+
+            // Force top
+            window.scrollTo(0, 0);
+        </script>
     </head>
 
     <body class="loading">

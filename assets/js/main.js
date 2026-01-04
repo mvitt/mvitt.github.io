@@ -3,7 +3,16 @@
  * Handles animations, navigation, and interactions.
  */
 
+// Main Script
 document.addEventListener('DOMContentLoaded', () => {
+    // Safety check: ensure top position once DOM is ready
+    window.scrollTo(0, 0);
+    
+    // Clean URL one more time to be safe
+    if (window.location.hash) {
+        history.replaceState(null, null, window.location.pathname);
+    }
+    
     // Register GSAP Plugin
     gsap.registerPlugin(ScrollTrigger);
     
