@@ -362,10 +362,6 @@ p {
     max-width: 800px; /* Constrain width for better readability */
 }
 
-.hero-content {
-    /* No grid needed */
-}
-
 .hero-subtitle {
     display: block;
     color: var(--accent-secondary);
